@@ -38,7 +38,7 @@ body {
   background-image: url(fotos/background.jpg);
   background-size: 200px;
   background-repeat: repeat;
-  max-width: 1920px;
+  max-width: 100%;
   max-height: 7000px;
   border: 10px solid #300350;
   position: static;
