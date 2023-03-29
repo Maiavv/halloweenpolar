@@ -1,0 +1,135 @@
+html {
+  overflow-y: scroll;
+}
+.mac-header {
+  justify-content: center;
+
+  align-items: center;
+  height: 20vh;
+  background-color: #e93479;
+  border: 1vh solid #300350;
+  padding: 4px 8px;
+  -webkit-app-region: drag;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.mac-title {
+  justify-content: center;
+
+  align-items: center;
+}
+.mac-title img {
+  display: relative;
+  margin: 30 auto;
+  width: 90vh; /* Defina a largura da imagem aqui */
+  height: auto;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 7000px;
+  margin: 0;
+  padding: 0;
+  background-image: url(fotos/background.jpg);
+  background-size: 200px;
+  background-repeat: repeat;
+  max-width: 1920px;
+  max-height: 7000px;
+  border: 10px solid #300350;
+  position: static;
+}
+.mac-header {
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #e93479;
+  border: 1vh solid #300350;
+  padding: 4px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.mac-title {
+  height: 300vw;
+  width: auto;
+  background-image: url(fotos/title.gif);
+  background-repeat: no-repeat;
+  display: relative;
+}
+
+.window {
+  position: relative;
+  top: 40vw;
+  left: 10vw;
+  width: 400px;
+  height: 300px;
+  background-color: #ffcaed;
+  background-image: url(imagem.gif);
+  background-size: 80%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+}
+.title-bar {
+  position: relative;
+  height: 40px;
+  background-color: #f62e97;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: move;
+}
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: 700;
+  color: #000;
+}
+.player-musica {
+  margin: 0;
+  position: relative;
+  top: -20vw;
+  left: 50vw;
+  width: 40%;
+  height: 7%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.fundotxt {
+
+  text-align: center;
+  position: relative;
+  top: 10vw;
+  align-items: center;
+  background-color: #999;
+  width: 40%;
+  height: 7%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  margin-left: 25%;
+}
+.texto123 {
+  align-self: auto;
+  position: relative;
+  background-color: white;
+}
+.titulo-do-texto {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-style: bold;
+}
